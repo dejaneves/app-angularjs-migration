@@ -1,6 +1,4 @@
-// import * as angular from 'angular';
-import { StateProvider } from '@uirouter/angularjs';
-
+import { StateProvider } from '@uirouter/angularjs'
 
 export default class RouteConfig {
   constructor ($stateProvider: StateProvider) {
