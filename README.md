@@ -1,5 +1,7 @@
 # App Migration Angular
 
+Essa aplicação é uma migração de [app-angularjs-example.](https://github.com/dejaneves/app-angularjs-example)
+
 ## Clonando.
 
 ```bash
