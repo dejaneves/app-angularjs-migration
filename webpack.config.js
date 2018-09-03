@@ -19,5 +19,10 @@ module.exports = {
         loader: 'ts-loader'
       }
     ]
+  },
+  devServer: {
+    contentBase: path.join(__dirname, '/'),
+    compress: true,
+    port: 9000
   }
 }

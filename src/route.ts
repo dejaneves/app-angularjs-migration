@@ -1,7 +1,7 @@
-import { StateProvider } from '@uirouter/angularjs'
+import { StateProvider, UrlRouterProvider } from '@uirouter/angularjs'
 
 export default class RouteConfig {
-  constructor ($stateProvider: StateProvider) {
+  constructor ($stateProvider: StateProvider, $urlRouterProvider: UrlRouterProvider) {
 
     $stateProvider
       .state('home', {
@@ -24,6 +24,6 @@ export default class RouteConfig {
         url: '/contact',
         templateUrl: './src/pages/contact.html'
       })
-
+      $urlRouterProvider.otherwise('/home')
   }
 }
