@@ -1,7 +1,7 @@
 import * as angular from 'angular'
 import '@uirouter/angularjs'
 
-// Modules
+// Route
 import RouteConfig from './route'
 
 angular
